@@ -1,7 +1,24 @@
  *Distribucion Linux*
 **FHS** 
-Es un acuerdo establece que dicta cual es la estructura de los archivos , sus jerarquias , su orden , osea como un orden ya establecido para las cosas;
+Es un acuerdo que dicta cual es la estructura de los archivos , sus jerarquias , su orden , osea como un orden ya establecido para las cosas;
 como por ejemplo , ya es un acuerdo que la nevera va en la cocina o sino ya es un acuerdo que el jabon va en el baño . Es por eso que estas reglas le dan un mayor orden 
 a la estructura de tus archivos por ejemplo , las aplicaciones de uso general estan en la carpeta /bin o sino las configuraciones del sistema van en la carpeta /etc , asi 
-organiza mejor y cabe aclarar que es como estandar este acuerda que esta dado para cual distribucion de linux.
+organiza mejor y cabe aclarar que es como un estandar este acuerdo,  que esta dado para cualquier distribucion de linux.
 
+La Estructura 
+/
+├── bin # ejecutables esenciales
+├── boot # kernel + grub
+├── dev # dispositivos
+├── etc # configuración
+├── home # /home/usuario
+├── lib # bibliotecas
+├── media # USB montado
+├── opt # software opcional
+├── proc # proceso virtual
+├── root # home del root
+├── sbin # binarios admin
+├── tmp # temporal
+├── usr # programas usuario
+├── var # datos variables
+└── srv # servicios
